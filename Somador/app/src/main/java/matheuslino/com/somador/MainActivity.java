@@ -5,7 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.text.NumberFormat;
+
 public class MainActivity extends AppCompatActivity {
+
+    int quantidade = 2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,12 +17,30 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void calcularComanda(View view){
-        display(1);
+    public void calcularComanda(View view) {
+        display(quantidade);
+        displayPrice(quantidade * 5);
     }
 
-    private void display(int number){
-        TextView quantidade_tv = (TextView) findViewById(R.id.quantidade_tv);
-        quantidade_tv.setText("" + number);
+    private void display(int number) {
+        TextView quantidade = (TextView) findViewById(R.id.quantidade_tv);
+        quantidade.setText("" + number);
+    }
+
+    private void displayPrice(int number) {
+        TextView priceTextView = (TextView) findViewById(R.id.preco_tv);
+        priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
+    }
+
+    public void incrementar(View view) {
+        quantidade++;
+        display(quantidade);
+    }
+
+    public void decrementar(View view) {
+        if (quantidade > 0) {
+            quantidade--;
+            display(quantidade);
+        }
     }
 }
