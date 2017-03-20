@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import java.text.NumberFormat;
+//import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -18,8 +18,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void calcularComanda(View view) {
-        display(quantidade);
-        displayPrice(quantidade * 5);
+        int preco = quantidade * 5;
+        String precoMessage = "Total: $" + preco;
+        precoMessage += "\nObrigado!";
+        displayMessage(precoMessage);
     }
 
     private void display(int number) {
@@ -27,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         quantidade.setText("" + number);
     }
 
-    private void displayPrice(int number) {
+    private void displayMessage(String message) {
         TextView priceTextView = (TextView) findViewById(R.id.preco_tv);
-        priceTextView.setText(NumberFormat.getCurrencyInstance().format(number));
+        priceTextView.setText(message);
     }
 
     public void incrementar(View view) {

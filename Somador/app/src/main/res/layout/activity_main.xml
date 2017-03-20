@@ -15,27 +15,33 @@
         android:text="Quantidade"
         android:textAllCaps="true" />
 
-    <Button
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:onClick="incrementar"
-        android:text="+" />
-
-    <TextView
-        android:id="@+id/quantidade_tv"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="8dp"
-        android:paddingTop="8dp"
-        android:text="2"
-        android:textColor="@android:color/black"
-        android:textSize="16sp" />
+        android:orientation="horizontal" >
 
-    <Button
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:onClick="decrementar"
-        android:text="-" />
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="decrementar"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/quantidade_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="2"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:onClick="incrementar"
+            android:text="+" />
+
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"
@@ -51,7 +57,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="16dp"
         android:paddingTop="8dp"
-        android:text="R$10,00"
+        android:text=""
         android:textColor="@android:color/black"
         android:textSize="16sp" />
 
