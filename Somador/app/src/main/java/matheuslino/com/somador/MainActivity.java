@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-//import java.text.NumberFormat;
 
 public class MainActivity extends AppCompatActivity {
 
