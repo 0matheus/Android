@@ -8,42 +8,40 @@
 
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/valor1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="64dp"
         android:ems="10"
-        android:hint="Valor 1"
-        android:inputType="number" />
+        android:hint="Valor 1" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/valor2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/valor1"
+        android:layout_alignStart="@+id/valor1"
+        android:layout_below="@+id/valor1"
         android:layout_marginTop="12dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="Valor 1"
-        android:layout_below="@+id/editText2"
-        android:layout_alignLeft="@+id/editText2"
-        android:layout_alignStart="@+id/editText2" />
+        android:hint="Valor 1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_somar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/valor2"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
-        android:text="Somar"
-        android:layout_below="@+id/editText3"
-        android:layout_centerHorizontal="true" />
+        android:text="Somar" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/btn_somar"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="42dp"
         android:text="" />
