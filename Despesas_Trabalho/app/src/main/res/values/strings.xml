@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Despesas_Trabalho</string>
+    <string name="idCliente">ID</string>
+    <string name="nomeCliente">Nome</string>
+    <string name="cidadeCliente">Cidade</string>
+    <string name="idDespesa">ID</string>
+    <string name="valorDespesa">Valor</string>
+    <string name="btnCalcular">Calcular</string>
+
 </resources>
