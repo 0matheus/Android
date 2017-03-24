@@ -27,6 +27,6 @@ public class TelaPrincipal extends AppCompatActivity {
                 startActivity(i);
             }
         });
-     }
+    }
 
 }
