@@ -10,7 +10,6 @@
 
 
     <TextView
-        android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
@@ -20,15 +19,14 @@
         android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/nCliente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/nomeCliente"
-        android:inputType="textPersonName" />
+        android:hint="@string/nomeCliente" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/cCliente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -36,7 +34,6 @@
         android:inputType="textPersonName" />
 
     <TextView
-        android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp"
@@ -46,12 +43,12 @@
         android:textSize="16sp" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/vDespesa"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/valorDespesa"
-        android:inputType="textPersonName" />
+        android:inputType="numberDecimal" />
 
     <Button
         android:id="@+id/btnCalcular"
