@@ -1,18 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10px"
     tools:context="matheuslino.com.comanda.TelaPrincipal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/selecaoRefeicao"
+        android:textSize="16sp" />
 
-</android.support.constraint.ConstraintLayout>
+    <CheckBox
+        android:id="@+id/cbxArroz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/arroz" />
+
+    <CheckBox
+        android:id="@+id/cbxFeijao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/feijao" />
+
+    <CheckBox
+        android:id="@+id/cbxCarne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/carne_bovina" />
+
+    <CheckBox
+        android:id="@+id/cbxFrango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frango" />
+
+    <CheckBox
+        android:id="@+id/cbxPeixe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/peixe" />
+
+    <CheckBox
+        android:id="@+id/cbxSalada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salada" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selecaoCortesia"
+        android:textSize="16sp" />
+
+    <RadioGroup
+        android:id="@+id/rdgCortesia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cafe" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quente" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gelada" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"/>
+
+    <TextView
+        android:id="@+id/txtPedido"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/pedido"/>
+
+
+</LinearLayout>

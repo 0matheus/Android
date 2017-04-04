@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Comanda</string>
+    <string name="selecaoRefeicao">Selecione a refeição</string>
+    <string name="selecaoCortesia">Selecione a cortesia</string>
+    <string name="pedido">Pedido</string>
+    <string name="arroz">Arroz</string>
+    <string name="feijao">Feijão</string>
+    <string name="carne_bovina">Carne bovina</string>
+    <string name="frango">Frango</string>
+    <string name="peixe">Peixe</string>
+    <string name="salada">Salada</string>
+    <string name="ok">Ok!</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="quente">Sobremesa quente</string>
+    <string name="gelada">Sobremesa gelada</string>
+    <string name="cafe">Café</string>
 </resources>
