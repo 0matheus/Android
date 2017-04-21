@@ -4,23 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:alignmentMode="alignBounds"
-    android:columnCount="3"
-    android:useDefaultMargins="true"
+    android:columnCount="4"
     android:columnOrderPreserved="true"
+    android:useDefaultMargins="false"
     tools:context="matheuslino.com.calculadora_t2.TelaPrincipal">
 
     <TextView
+        android:id="@+id/txt_resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_columnSpan="3"
-        android:padding="10dp"
-        android:textAlignment="viewEnd"
+        android:layout_columnSpan="4"
         android:layout_gravity="end"
+        android:padding="10dp"
         android:text="Resultado"
+        android:textAlignment="viewEnd"
         android:textSize="30sp" />
 
-
     <Button
+        android:id="@+id/btn_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
@@ -28,6 +29,7 @@
         android:text="1" />
 
     <Button
+        android:id="@+id/btn_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
@@ -35,6 +37,7 @@
         android:text="2" />
 
     <Button
+        android:id="@+id/btn_3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_columnWeight="1"
@@ -42,58 +45,104 @@
         android:text="3" />
 
     <Button
+        android:id="@+id/btn_div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/btn_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="4" />
 
     <Button
+        android:id="@+id/btn_5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="5" />
 
     <Button
+        android:id="@+id/btn_6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="6" />
 
     <Button
+        android:id="@+id/btn_mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="*" />
+
+    <Button
+        android:id="@+id/btn_7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="7" />
 
     <Button
+        android:id="@+id/btn_8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="8" />
 
     <Button
+        android:id="@+id/btn_9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="9" />
 
     <Button
+        android:id="@+id/btn_sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/btn_dec"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="." />
 
     <Button
+        android:id="@+id/btn_0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_row="3"
         android:text="0" />
 
     <Button
+        android:id="@+id/btn_equ"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_row="3"
         android:text="=" />
+
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/btn_limpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="4"
+        android:layout_gravity="top"
+        android:text="Limpar"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
 </GridLayout>
