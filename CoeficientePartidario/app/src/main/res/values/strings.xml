@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Coeficiente Partidário</string>
+    <string name="zero">0</string>
+    <string name="resultado">Resultado</string>
+    <string name="calcular">Calcular</string>
+    <string name="informe_os_dados">Informe os dados abaixo</string>
+    <string name="numero_vagas">Número de vagas</string>
+    <string name="numero_votantes">Numero de votantes</string>
+    <string name="numero_votos_branco">Número de votos em branco</string>
+    <string name="numero_votos_nulo">Número de votos em nulo</string>
+    <string name="numero_votos_partido_1">Número de votos Partido 1</string>
+    <string name="numero_votos_partido_2">Número de votos Partido 2</string>
+    <string name="numero_votos_partido_3">Número de votos Partido 3</string>
+
+    <string name="total_votantes">Total de votantes</string>
+    <string name="votos_branco">Votos em branco</string>
+    <string name="votos_nulos">Votos em nulo</string>
+    <string name="votos_P1">Votos Partido 1</string>
+    <string name="votos_P2">Votos Partido 2</string>
+    <string name="votos_P3">Votos Partido 3</string>
+    <string name="quociente_eleitoral">Quociente Eleitoral</string>
+    <string name="vagas_P1">Vagas Partido 1</string>
+    <string name="vagas_P2">Vagas Partido 2</string>
+    <string name="vagas_P3">Vagas Partido 3</string>
+</resources>

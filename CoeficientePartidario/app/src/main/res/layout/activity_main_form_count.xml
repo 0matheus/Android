@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="matheuslino.com.coeficientepartidario.MainFormCount">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/informe_os_dados"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/txt_nVagas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_vagas"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <EditText
+        android:id="@+id/txt_nVotantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_votantes"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <EditText
+        android:id="@+id/txt_nBrancos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_votos_branco"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <EditText
+        android:id="@+id/txt_nNulos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_votos_nulo"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <EditText
+        android:id="@+id/txt_votosP1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_votos_partido_1"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <EditText
+        android:id="@+id/txt_votosP2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_votos_partido_2"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <EditText
+        android:id="@+id/txt_votosP3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_votos_partido_3"
+        android:inputType="number"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+    <Button
+        android:id="@+id/btn_calcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorSecundaryLight"
+        android:text="@string/calcular"
+        android:textColorHint="@color/colorPrimaryLight" />
+
+
+</LinearLayout>
